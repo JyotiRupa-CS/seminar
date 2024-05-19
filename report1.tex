@@ -1,0 +1,361 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in,left=1.5in,top=1.5in,includefoot]{geometry}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper,total={170mm,257mm},left=20mm,top=30mm}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{array}
+\begin{document}
+\pagenumbering{roman}
+\begin{center}
+\Large\section*{ABSTRACT}
+\end{center}
+\begin{spacing}{1.95}
+\large “Cloud” is a collective term for a large number of developments and possibilities. It is not an invention, but more of a “practical innovation”. Much like the iPod is comprised of several existing concepts and technologies(the Walkman, MP3 compression and a portable hard disk), cloud computing merges several already available technologies: high bandwidth networks,virtualization,Web 2.0 interactivity,time sharing, and browser interfaces.Cloud Computing is a popular phrase that is shorthand for applications that were developed to be rich Internet applications that run on the Internet(or “Cloud”).Cloud computing enables tasks to be assigned to a combination of software and services over a network. This network of servers is the cloud. Cloud computing can help businesses transform their existing server infrastructures into dynamic environments, expanding and reducing server capacity depending on their requirements.A cloud computing platform dynamically provisions,configures,reconfigures, servers as needed. Advanced clouds typically include other computing resources such as storage area networks(SANs), network equipment,firewall and other security devices.\\
+\end{spacing}
+\newpage
+\begin{center}
+\Large\section{INTRODUCTION}
+\end{center}
+\subsection{GENERAL}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\fancyhead[L]{CHAPTER 1}
+\fancyhead[R]{Cloud Computing}
+\fancyfoot{}
+\fancyfoot[L]{Dept. of CSE, NERIST}
+\fancyfoot[R]{\thepage}
+\renewcommand{\footrulewidth}{1pt}
+\begin{spacing}{1.25}
+\hspace{0.5cm}\large Cloud computing is the next natural step in the evolution of on-demand information technology services and products. To a large extent cloud computing will be based on virtualized resources. The idea of cloud computing is based on a very fundamental principal of `reusability of IT capabilities`. The difference that cloud computing brings compared to traditional concepts of "grid computing", "distributed computing", "utility computing", or "autonomic computing" is to broaden horizons across organizational boundaries.\\
+						
+			\hspace{0.5cm}\large According to the IEEE Computer Society Cloud Computing is:\\
+\textbf{\textit{"A paradigm in which information is permanently stored in servers on the Internet and cached temporarily on clients that include desktops,Entertainment centers, table computers, notebooks, wall computers, handhelds, etc."}}\\
+
+\large Though many cloud computing architectures and deployments are powered by grids, based on autonomic characteristics and consumed on the basis of utilities billing, the concept of a cloud is fairly distinct and complementary to the concepts of grid, SaaS, Utility Computing etc. In theory,cloud computing promises availability of all required hardware, software, platform, applications,infrastructure and storage with an ownership of just an internet connection.People can access the information that they need from any device with an Internet connection-including mobile and handheld phones—rather than being chained to the desktop. It also means lower costs, since there is no need to install software or hardware.Cloud computing used to posting and sharing photos on orkut, instant messaging with friends maintaining and upgrading business technology.\\
+\end{spacing}
+\textbf{\subsection{HISTORY}}
+\large Since the beginning days of computing, when mainframe computers were accessible remotely through terminals, "cloud computing" has evolved. However, with the development of internet technologies and the demand for more effective and scalable computing solutions in the 1990s and early 2000s, the contemporary idea of cloud computing as we know it today first emerged.\\
+\begin{center}
+\includegraphics[scale=0.6]{history.png}\\
+\vspace{0.2in}
+Fig. 1.1 Evolution of Cloud Computing.\\ 
+\end{center}
+\textbf{\subsubsection{CLIENT SERVER COMPUTING}}
+Before the advent of cloud computing, Client/Server computing was the dominant approach. The server side of this architecture served as the central location for all software programs, data, and controls. Users connected to the server and obtained the necessary access permissions to access specific data or run programs. Networked computing was built on top of client/server computing, but it had drawbacks in terms of resource efficiency and scalability.\\
+\textbf{\subsubsection{EVOLUTION OF DISTRIBUTED COMPUTING}}
+The idea of distributed computing evolved as computers grew increasingly networked. Multiple computers could cooperate and share resources and processing power thanks to distributed computing. This model allowed for parallel processing and increased efficiency by dividing tasks across various processors. The centralized approach underwent a dramatic change with the advent of distributed computing, opening the door for more scalable and adaptable computer structures.\\
+\textbf{\subsubsection{CONCEPT OF CLOUD COMPUTING}}
+Client/server and distributed computing paradigms served as the cornerstones for the paradigm that eventually developed as cloud computing. The objective was to offer network-based, primarily the Internet, on-demand access to shared computer resources and services. The goal of cloud computing was to offer consumers flexible, scalable, and economical access to computing resources, storage, and applications. It shifted the emphasis to distant services and pay-as-you-go business models from local infrastructure and ownership.\\
+\textbf{\subsubsection{EARLY VISIONS OF CLOUD COMPUTING}}
+As early as \textbf{1961}, the idea of computers as a utility, comparable to water or electricity, was put out. \textbf{Computer scientist John McCarthy} proposed that computing resources may be bought and sold on demand while delivering a speech at MIT. But at that time, technology was not developed enough to support this goal. It was a brilliant idea, but like all brilliant ideas, it was ahead of its time; as for the next few decades, despite interest in the model, the technology simply was not ready for it. But of course, time has passed, and technology caught that idea.\\
+\textbf{\subsubsection{COM AND THE RISE OF CLOUD APPLICATIONS}}
+\textbf{Delivering applications over the internet in 1999, Salesforce.com} transformed the software sector. Their creative strategy enables businesses to obtain software via a straightforward website, doing away with the requirement for difficult on-premises installs. This was an important step towards making the idea of computing as a utility a reality since it allowed companies to use cloud-based apps without having to worry about managing infrastructure.\\
+\textbf{\subsubsection{THE CLOUD IS BEING REVOLUTIONISED BY AMAZON WEB SERVICES(AWS)}}
+Launched in\textbf{2002, Amazon Web Services (AWS) first provided computing} and storage services. However, Elastic Compute Cloud (EC2)'s launch in 2006 was what truly revolutionized cloud computing. With the help of EC2, users were able to hire virtual servers as needed, which was a scalable and economical solution. The success of AWS illustrated cloud computing's promise and inspired the quick growth of cloud services.\\
+\textbf{\subsubsection{EXPANSION OF CLOUD SERVICES}}
+Other significant firms entered the cloud computing business after Amazon. Businesses can now take advantage of productivity tools and collaboration platforms on the cloud thanks to Google Apps, which started offering cloud-based enterprise apps in 2009.\\
+
+Microsoft introduced Windows Azure, a feature-rich cloud computing platform, in the same year. Businesses like Oracle and HP adopted cloud computing as well, providing a variety of services to meet various corporate demands. The presence of these major players in the industry as a whole has sped up the adoption of cloud computing in numerous industries.\\
+\textbf{\subsubsection{FUTURE TRENDS AND INNOVATION}}
+Emerging technologies and shifting business requirements are driving the continued evolution of cloud computing. Edge computing is becoming more popular because it enables real-time data analysis and lower latency by processing data closer to the source. Serverless computing, which focuses on writing code rather than managing infrastructure, is also gaining popularity because it offers improved scalability and financial efficiency. The portability and simplicity of deployment across various cloud environments are provided by containerization technologies like Docker and Kubernetes.\\
+The future of cloud computing is also being shaped by developments in machine learning (ML) and artificial intelligence (AI). Organizations can use complex algorithms and models for data analysis, automation, and prediction using cloud-based AI and ML services. By enabling firms to gain useful insights, enhance decision-making, and automate procedures, these technologies foster creativity and productivity.\\
+Security, data privacy, and regulatory compliance issues are becoming more prominent as the cloud computing environment develops. To overcome these obstacles and offer a secure and reliable cloud environment, service providers are making significant investments in strong security measures, encryption methods, and compliance frameworks.\\
+\includegraphics[scale=0.6]{computing.png}\\
+\vspace{0.2in}
+\begin{center}
+Fig. 1.2  History of Cloud Computing.
+\end{center}
+\textbf{\subsection{IMPORTANCE AND RELEVANCE IN TODAY'S DIGITAL LANDSCAPE}}
+\large In today's digital age, cloud computing is a game changer, reshaping our world. It offers scalability,cost-efficiency, and accessibility, making it indispensable. Cloud computing enablesbusinesses to adapt swiftly, reduces costs,fosters remote work, and enhances data security.It fuels innovation, democratizes data analytics,and empowers startups.In education, healthcare, government, and entertainment, the cloud improves services, accessibility, and efficiency.Cloud computing is not just important; it's essential for progress, innovation, and efficiency. As we embrace it, the cloud will continue to shape our future, unlocking new possibilities for all.\\
+
+\newpage
+\begin{center}
+\Large\section{LITERATURE REVIEW}
+\end{center}
+\fancyhead[L]{CHAPTER 2}
+\textbf{\subsection{INTRODUCTION}}
+This study is a literature review on cloud computing cloud computing trends as one the fastest growing technologies in the computer industry and their benefits and opportunities for all types of organizations. In addition, it addresses the challenges and problems that contribute to increasing the number of customers willing to adopt and use the technology. The reviewed literature showed that the technology is promising and is expected to grow in the future. Researchers have proposed many techniques to address the problems and challenges of cloud computing, such as security and privacy risks, through mobile cloud computing and cloud-computing governance.\\
+\textbf{\subsection{DEFINITION OF CLOUD COMPUTING}}
+The term \textbf{Cloud} refers to a Network or Internet. 
+In other words, we can say that Cloud is something, 
+which is present at remote location. 
+Cloud can provide services over network, i.e.,
+ on public networks or on private networks, i.e., 
+WAN, LAN or VPN. 
+Applications such as e-mail, web conferencing, 
+customer relationship management (CRM),
+ all run in cloud.\\
+ 
+\textbf{Cloud Computing} refers to manipulating, configuring, and accessing the applications online. It offers online data storage, infrastructure and application.
+                         Cloud Computing is both a combination of software and 
+hardware based computing resources delivered as a 
+network service.\\
+\begin{center}
+\includegraphics[scale=0.6]{dia.png}\\
+Fig. 2.1. Diagram of Cloud Computing.
+\end{center}
+\textbf{\subsubsection{ARCHITECTURE OF CLOUD COMPUTING}}
+\textbf{Cloud Computing}, which is one of the demanding technology of the current time and which is giving a new shape to every organization by providing on demand virtualized services/resources. Starting from small to medium and medium to large, every organization use cloud computing services for storing information and accessing it from anywhere and any time only with the help of internet. In this article, we will know more about the internal architecture of cloud computing.\\
+
+Transparency, scalability, security and intelligent monitoring are some of the most important constraints which every cloud infrastructure should experience. Current research on other important constraints is helping cloud computing system to come up with new features and strategies with a great capability of providing more advanced cloud solutions.\\
+
+\textbf{Cloud Computing Architecture :}
+\begin{itemize}
+\item Frontend
+\item Backend
+\end{itemize}
+The below figure represents an internal architectural view of cloud computing.\\
+\begin{center}
+\includegraphics[scale=0.8]{architecture.png}\\
+Fig. 2.2. Architecture of Cloud Computing
+\end{center}
+Architecture of cloud computing is the combination of both \textbf{SOA (Service Oriented Architecture)} and \textbf{EDA (Event Driven Architecture)}. Client infrastructure, application, service, runtime cloud, storage, infrastructure, management and security all these are the components of cloud computing architecture.\\
+
+\textbf{1. Frontend :}
+Frontend of the cloud architecture refers to the client side of cloud computing system. Means it contains all the user interfaces and applications which are used by the client to access the cloud computing services/resources. For example, use of a web browser to access the cloud platform.\\
+\begin{itemize}
+\item Client Infrastructure – Client Infrastructure is a part of the frontend component. It contains the applications and user interfaces which are required to access the cloud platform.
+\item In other words, it provides a GUI( Graphical User Interface ) to interact with the cloud.
+\end{itemize}
+\textbf{2. Backend :} Backend refers to the cloud itself which is used by the service provider. It contains the resources as well as manages the resources and provides security mechanisms. Along with this, it includes huge storage, virtual applications, virtual machines, traffic control mechanisms, deployment models, etc.
+\begin{itemize}
+\item Application –
+Application in backend refers to a software or platform to which client accesses. Means it provides the service in backend as per the client requirement.
+\item Service in backend refers to the major three types of cloud based services like SaaS, PaaS and IaaS. Also manages which type of service the user accesses.
+\item Storage –
+Storage in backend provides flexible and scalable storage service and management of stored data.
+\item Infrastructure –
+Cloud Infrastructure in backend refers to the hardware and software components of cloud like it includes servers, storage, network devices, virtualization software etc.
+\item Security –
+Security in backend refers to implementation of different security mechanisms in the backend for secure cloud resources, systems, files, and infrastructure to end-users.
+\end{itemize}
+\textbf{\subsubsection{CHARACTERISTICS OF CLOUD COMPUTING}}
+There are many characteristics of Cloud Computing here are few of them :\\
+\begin{enumerate}
+ \item \textbf{On-demand self-services:} The Cloud computing services does not require any human administrators, user themselves are able to provision, monitor and manage computing resources as needed.\\
+ \item \textbf{Rapid elasticity:} The Computing services should have IT resources that are able to scale out and in quickly and on as needed basis. Whenever the user require services it is provided to him and it is scale out as soon as its requirement gets over.\\
+ \item \textbf{Broad network access:} The Computing services are generally provided over standard networks and heterogeneous devices.\\
+ \item \textbf{Resource pooling:} The IT resource (e.g., networks, servers, storage, applications, and services) present are shared across multiple applications and occupant in an uncommitted manner. Multiple clients are provided service from a same physical resource.\\
+ \item \textbf{Virtualization:} Cloud computing providers use virtualization technology to abstract underlying hardware resources and present them as logical resources to users.\\
+ \item \textbf{Security:} Cloud providers invest heavily in security measures to protect their user's data and ensure the privacy of sensitive information.\\
+ \item \textbf{Sustainability:} Cloud providers are increasingly focused on sustainable practices, such as energy-efficient data centers and the use of renewable energy sources, to reduce their environmental impact.\\
+\end{enumerate}
+\textbf{\subsubsection{ADVANTAGES OF CLOUD COMPUTING}}
+\begin{enumerate}
+  \item \textbf{Scalability:} One of the best advantages of cloud computing is scalability. Maintaining a business, organization, or another element is trying in ideal circumstances. Especially amid the stresses of downturn, expansion, pandemic, war, work putting together, and store network disturbances. Cloud Computing provides the opportunity to scale at your own speed. Organizations are savvy to have their significant developments plotted out three to five years ahead of time, however, the world can be unpredictable. Whether you need to develop forcefully or carefully or downsize decisively during seasons of unrest, cloud computing is a business resource you pay for just as and when you want it.\\
+  \item  \textbf{Security:} Cloud providers invest heavily in security measures to protect data and infrastructure. They often have dedicated security teams, encryption protocols, and compliance certifications to ensure data confidentiality, integrity, and availability.\\
+  \item \textbf{Cost-effectiveness:} Instead of investing in expensive hardware and software, cloud computing allows you to pay only for what you use on a subscription basis. This can significantly reduce upfront costs and also eliminate the need for maintaining and upgrading hardware.\\
+  \item \textbf{Flexibility and Accessibility:} Cloud computing enables access to resources and applications from anywhere with an internet connection. This flexibility allows for remote work, collaboration among teams in different locations, and access to data and applications on various devices.\\
+  \item \textbf{Automatic Updates and Maintenance:} Cloud providers handle software updates and maintenance tasks, freeing up IT resources and ensuring that systems are always running on the latest software versions with minimal downtime.\\
+\end{enumerate}
+\textbf{\subsubsection{DISADVANTAGES OF CLOUD COMPUTING}}
+\begin{enumerate}
+\item \textbf{Dependence on Internet Connectivity:} Cloud computing heavily relies on internet connectivity. If there are issues with internet connectivity, users may experience disruptions in accessing cloud services or data.\\
+\item \textbf{Security Concerns:} Despite robust security measures implemented by cloud service providers, there are still concerns about the security of sensitive data stored in the cloud. Data breaches, unauthorized access, and compliance issues can pose significant risks.\\
+\item \textbf{Potential Downtime:} Although cloud providers strive for high availability, no system is immune to downtime. Service outages can occur due to hardware failures, software bugs, or cyber attacks, leading to disruptions in business operations.\\
+\item \textbf{Data Transfer and Bandwidth Costs:} Transferring large amounts of data into or out of the cloud can incur additional costs, especially if the data needs to travel across geographical regions. Bandwidth costs can add up, particularly for bandwidth-intensive applications.\\
+\item \textbf{Legacy Integration Challenges:} Integrating existing legacy systems with cloud services can be complex and time-consuming. Compatibility issues, data migration, and interoperability challenges may arise during the integration process.\\
+\end{enumerate}
+\textbf{\subsubsection{CLOUD DEPLOYMENT MODELS}}
+There are three types of cloud deployment models:\\
+\begin{enumerate}
+
+\item Public Cloud
+\item Private Cloud
+\item Hybrid Cloud
+\end{enumerate}
+\begin{center}
+\includegraphics[scale=0.6]{models.png}\\
+Fig. 2.3. Cloud Deployment Models
+\end{center}
+\textbf{1. Public Cloud:}\\
+\begin{itemize}
+\item It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them.
+\item Services are delivered over a network which is open for public usage.
+\end{itemize}
+\begin{center} 
+\includegraphics[scale=0.4]{public.png}\\
+Fig. 2.2.1. Public Cloud
+\end{center}
+\textbf{2. Private Cloud:}\\
+\begin{itemize}
+\item Exclusive user by a single organization comprising multiple consumers (e.g. business units)
+\item The platform for cloud computing is implemented on a cloud-based secure environment that is safeguarded by a firewall which is under the governance of the IT department that belongs to the particular customer.
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.6]{private.png}\\
+Fig. 2.2.2. Private Cloud
+\end{center}
+\textbf{3. Hybrid Cloud:}\\
+\begin{itemize}
+\item The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private,community, or public) that remains unique entities, but are bound together by standardized or proprietary technology that enables data and application portability.
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.4]{hybrid.png}\\
+Fig. 2.2.3. Hybrid Cloud
+\end{center}
+\textbf{\subsubsection{CLOUD SERVICE MODELS}}
+There are three types of cloud service models:\\
+\begin{enumerate}
+\item Infrastructure as a Service (IaaS)
+\item Platform as a Service (PaaS)
+\item Software as a Service (SaaS)
+\end{enumerate}
+\begin{center}
+\includegraphics[scale=0.5]{service.png}\\
+Fig. 2.2.4. Cloud Service Models\\
+\end{center}
+\textbf{1. Infrastructure as a Service (IaaS):}\\
+
+Iaas is also known as Hardware as a Service (HaaS). It is one of the layers of the cloud computing platform. It allows customers to outsource their IT infrastructures, such as servers, networking, processing, storage, virtual machines, and other resources. Customers access these resources on the Internet using a pay-as-per-use model.\\
+\begin{center}
+\includegraphics[scale=0.5]{IAAS.png}\\
+Fig. 2.2.5. Infrastructure as a Service (IaaS)\\
+\end{center}
+IaaS is offered in three models: public, private, and hybrid cloud. The private cloud implies that the infrastructure resides at the customer's premise. In the case of the public cloud, it is located at the cloud computing platform vendor's data center, and the hybrid cloud is a combination of the two in which the customer selects the best of both public cloud and private cloud.\\
+
+\textbf{Examples:} DigitalOcean, Linode, Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), Rackspace, and Cisco Metacloud.
+\begin{center}
+\includegraphics[scale=0.6]{S.png}\\
+Fig. 2.2.6. Examples of IaaS\\
+\end{center}
+\textbf{2. Platform as a Service (PaaS):}\\
+
+Platform as a Service (PaaS) provides a runtime environment. It allows programmers to easily create, test, run, and deploy web applications. You can purchase these applications from a cloud service provider on a pay-as-per-use basis and access them using an Internet connection. In PaaS, back-end scalability is managed by the cloud service provider, so end-users do not need to worry about managing the infrastructure.\\
+\begin{center}
+\includegraphics[scale=0.6]{Paas.png}\\
+Fig. 2.2.7. Platform as a Service (PaaS)\\
+\end{center}
+\textbf{Examples:} Google App Engine, Force.com, Joyent , Microsoft Azure App Service , SAP Cloud Platform , Engine Yard , Red Hat OpenShift ,Oracle Cloud Platform , Amazon Elastic Beanstalk , IBM Cloud Foundry , Mendix.\\
+\begin{center}
+\includegraphics[scale=0.4]{eg.png}\\
+Fig. 2.2.8. Examples of PaaS\\
+\end{center}
+\textbf{2. Software as a Service (SaaS):}\\
+
+\textbf{SaaS is also known as "On-Demand Software"}. It is a software distribution model in which services are hosted by a cloud service provider. These services are available to end-users over the internet, so the end-users do not need to install any software on their devices to access these services.\\
+\begin{center}
+\includegraphics[scale=0.6]{SaaS.png}\\
+Fig. 2.2.9 Software as a Service (SaaS)
+\end{center}
+\textbf{Examples:} BigCommerce, Google Apps, Salesforce, Dropbox, ZenDesk, Cisco WebEx, ZenDesk, Slack, and GoToMeeting.\\
+\begin{center}
+\includegraphics[scale=0.4]{example.png}\\
+Fig. 2.2.10. Examples of SaaS
+\end{center}
+\textbf{\subsubsection{DIFFERENCE BETWEEN ON-PREMISES AND CLOUD}}
+\textbf{On-Premises:} In on-premises, from use to the running of the course of action, everything is done inside; whereby backup, privacy, and updates moreover should be managed in-house. At the point when the item is gotten, it is then installed on your servers; requiring additional power laborers, database programming software and operating systems to be purchased. With no prior commitment, you anticipate complete ownership.\\
+
+\textbf{Cloud:}Cloud refers to the delivery of on-demand computing services over the internet on “Pay As U Use “services, in simple words rather than managing files and Services on the local storage device you can do the same over the Internet in a cost-efficient manner. With a Cloud-based enrolment model, there is no convincing motivation to purchase any additional establishment or licenses. \\
+\begin{center}
+
+\begin{tabular}{|m{8cm}|m{8cm}|}
+	\hline
+	\textbf{\textit{On-Premises}}  &      \textbf{\textit{Cloud}} \\ \hline
+	
+	Control of user is more    &    Control of user is less as third parties are involved\\ \hline
+	Infrastructure is not easy to scale  &   Infrastructure is easy to scale\\ \hline
+	Internet connectivity is not need all the time   &      Internet is must for the services of the cloud\\ \hline
+	These services run within the enterprise only      &      The services of cloud depends on the third parties so these are not only accessed within the enterprise\\ \hline
+	These services are not quite flexible     &        The services of cloud are highly flexible \\ \hline
+	Not available on a subscription basis      &       Services are available for purchase\\ \hline
+	For hardware and software updates, enterprise is responsible    &   For hardware and software updates, third party is responsible\\ \hline
+	Cost is fixed   &      Cost is not fixed, as additional services comes with additional charges\\ \hline
+	The deployment happens in the local environment       &        The deployment happens on the internet \\ \hline
+	These services are used in large companies        &        These services are used in large companies\\ \hline
+	 
+	
+
+\end{tabular}
+\end{center}
+\textbf{\subsection{CLOUD DEPLOYMENT CONSIDERATION}}
+Factors to consider when choosing a cloud provider:\\
+\begin{itemize}
+ \item \textbf{Trust and Reputation:} Look for providers with a solid reputation and established trust in the industry. Consider factors such as reliability, uptime guarantees, and customer reviews.\\
+ \item \textbf{Business Knowledge and Technical Expertise:} Assess the provider's understanding of your business needs and their technical capabilities to meet those requirements. A provider with expertise in your industry or similar use cases may offer better-suited solutions.\\
+ \item \textbf{Certifications and Standards:} Ensure the cloud provider complies with relevant certifications and standards, such as ISO, SOC, HIPAA, GDPR, etc. Compliance with these regulations demonstrates a commitment to security and data protection.\\
+ \item \textbf{Data Security and Compliance:} Security should be a top priority. Evaluate the provider's security measures, including encryption, access controls, threat detection, and incident response capabilities. Additionally, consider their compliance with industry-specific regulations to protect sensitive data.\\
+ \item \textbf{Technologies and Service Roadmap:} Assess the provider's technology stack and service offerings to ensure they align with your current and future needs. Consider factors such as scalability, flexibility, support for hybrid or multi-cloud environments, and integration capabilities.\\
+ \item \textbf{Cost:} Compare pricing structures, including upfront costs, usage-based pricing, and potential hidden fees. Consider the total cost of ownership (TCO) over time, including factors like data transfer costs, storage fees, and potential price increases as usage scales.\\
+\end{itemize}
+\textbf{\subsection{CLOUD SERVICE PROVIDER}}
+Cloud service providers (CSPs) are companies that offer cloud computing services to businesses and individuals. These services typically include on-demand access to computing resources such as virtual machines, storage, databases, and software applications.\\
+
+\textbf{Examples of popular cloud service providers} include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), IBM Cloud, and Oracle Cloud. These CSPs have built massive data centers around the world, which host the computing infrastructure required to provide cloud services to their customers. It offers several benefits to businesses and individuals, including cost savings, scalability, and increased flexibility. \\
+
+The cloud service providers are:\\
+\begin{itemize}
+\item \textbf{Amazon Web Services (AWS)}: Amazon Web Services, Inc., a subsidiary of Amazon that also provides cloud computing services, provides people, businesses, and governments with dependable, scalable, reasonably priced, and metered, pay-as-you-go on-demand cloud computing platforms and APIs from Amazon Web Services.Clients frequently use this in addition to autoscaling. Amazon Web Services (AWS), the cloud computing service of Amazon.com, is the largest type of cloud service provider globally.\\
+\begin{center}
+\includegraphics[scale=0.4]{aws.png}\\
+Fig. 2.4.1. AWS
+\end{center}
+Services provided by \textbf{AWS} are:
+\begin{itemize}
+\item Analytics
+\item Storage
+\item Compute
+\item Blockchain
+\item Database
+\item Developer Tool
+\item Networking and Content Delivery
+\item Security, Identity, and Compliance
+\item Machine Learning
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.6]{edu.png}\\
+Fig. 2.4.2. AWS service provider
+\end{center}
+\item \textbf{Microsoft Azure}: Microsoft’s public cloud platform is called Azure. It is the the second largest cloud service provider globally. A few of the many services that Azure provides include Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and Managed Database Service capabilities. Depending on your needs, these type of cloud service providers and resources may store and transform your data.\\
+\begin{center}
+\includegraphics[scale=0.6]{micro.png}\\
+Fig. 2.4.3. Microsoft Azure
+\end{center}
+
+Service provided by \textbf{Microsoft Azure} are:
+\begin{itemize}
+\item Azure HDInsight
+\item Azure Data Factory (ADF)
+\item Resource Group
+\item Storage Accounts
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.5]{azure.png}\\
+Fig. 2.4.4. Azure services
+\end{center}
+\item \textbf{Google Cloud Platform}: It is a collection of cloud computing services that Google provides as the cloud service provider. It makes use of the same internal architecture as Google does for its consumer products, which include Google Search, Gmail, Drive, and YouTube. Client libraries from Google Cloud make it simple to create and manage resources. The APIs that Google Cloud client libraries make available have two primary uses: App APIs provide access to services. The functionality of app APIs is offered by supported languages like Node.\\
+\begin{center}
+\includegraphics[scale=0.5]{gcp.png}\\
+Fig. 2.4.5. Google Cloud Platform
+\end{center}
+Services provided by \textbf{GCP}:
+\begin{itemize}
+\item Google Compute Engine (GCE)
+\item Google Cloud Storage
+\item Google Kubernetes Engine (GKE)
+\item Google Cloud Pub/Sub
+\item Google BigQuery
+\item Google Cloud Firestore
+\item Google Cloud Functions
+\item Google Cloud Vision AI
+\item Google Cloud Natural Language API
+\item Google Cloud Spanner
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.6]{gcpservices.png}\\
+Fig. 2.4.6. GCP Services
+\end{center}
+\end{itemize}
+
+
+ 
+ 
+
+
+
+
+
+\end{document}
